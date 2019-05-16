@@ -4,7 +4,7 @@
 ##
 ##########################################################
 
-# this should create a .txt file that 
+# function to write out session and machine information to add to scientific documents 
 repDetails <- function(outDir = getwd(), type = "file"){
 	
 	# create filename -- note you can supply a destination directory with "outDir"
