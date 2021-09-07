@@ -8,7 +8,7 @@
 repDetails <- function(outDir = getwd(), type = "file"){
 	
 	# create filename -- note you can supply a destination directory with "outDir"
-	fileName <- paste0(outDir,"R-replication-", Sys.Date(), ".txt")
+	fileName <- paste0(outDir,"/R-replication-", Sys.Date(), ".txt")
 	# create object with correct attributes to write out
 	sesh.out <- rbind(
 		# there are 10 items in the list from sessionInfo()
